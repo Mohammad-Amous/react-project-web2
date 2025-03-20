@@ -1,12 +1,12 @@
 .newsletter-container {
   position: relative;
-  height: auto; /* Changed from 100vh to auto for better responsiveness */
-  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  height: auto;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Prevent overflow */
-  padding: 40px 20px; /* Add padding for smaller screens */
+  overflow: hidden;
+  padding: 40px 20px;
 }
 
 .background-image {
@@ -14,19 +14,19 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* Adjusted to 100% to fit the container */
-  object-fit: cover; /* Ensure the image covers the entire container */
-  z-index: 0; /* Ensure the image stays behind the content */
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 
 .newsletter-content-wrapper {
   position: relative;
-  z-index: 1; /* Ensure content stays above the background image */
+  z-index: 1;
   text-align: center;
   color: white;
-  width: 100%; /* Full width for better responsiveness */
-  max-width: 1200px; /* Limit maximum width */
-  padding: 20px; /* Add padding for smaller screens */
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
 }
 
 .newsletter-header {
@@ -55,7 +55,7 @@
   width: 100%;
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin: 0 auto; /* Center the content */
+  margin: 0 auto;
 }
 
 .newsletter-content .join-party {
@@ -83,7 +83,7 @@
 }
 
 .newsletter-form button {
-  padding: 15px 30px; /* Adjusted padding for better responsiveness */
+  padding: 15px 30px;
   font-size: 18px;
   background-color: #ffcc00;
   color: white;
@@ -91,72 +91,71 @@
   border-radius: 5px;
   cursor: pointer;
   align-self: flex-start;
-  width: 100%; /* Full width on small screens */
+  width: 100%;
 }
 
 .newsletter-form button:hover {
   background-color: #e6b800;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .newsletter-container {
-    padding: 20px 10px; /* Reduced padding for tablets */
+    padding: 20px 10px;
   }
 
   .newsletter-header h1 {
-    font-size: 20px; /* Smaller font size for tablets */
+    font-size: 20px;
   }
 
   .newsletter-header .updates {
-    font-size: 28px; /* Smaller font size for tablets */
+    font-size: 28px;
   }
 
   .newsletter-content {
-    padding: 20px; /* Reduced padding for tablets */
+    padding: 20px;
   }
 
   .newsletter-content .join-party {
-    font-size: 16px; /* Smaller font size for tablets */
+    font-size: 16px;
   }
 
   .newsletter-form input {
-    font-size: 16px; /* Smaller font size for tablets */
+    font-size: 16px;
   }
 
   .newsletter-form button {
-    font-size: 16px; /* Smaller font size for tablets */
+    font-size: 16px;
   }
 }
 
 @media (max-width: 480px) {
   .newsletter-container {
-    padding: 10px; /* Minimal padding for mobile */
+    padding: 10px;
   }
 
   .newsletter-header h1 {
-    font-size: 18px; /* Smaller font size for mobile */
+    font-size: 18px;
   }
 
   .newsletter-header .updates {
-    font-size: 24px; /* Smaller font size for mobile */
+    font-size: 24px;
   }
 
   .newsletter-content {
-    padding: 15px; /* Minimal padding for mobile */
+    padding: 15px;
   }
 
   .newsletter-content .join-party {
-    font-size: 14px; /* Smaller font size for mobile */
-    margin-bottom: 20px; /* Reduced margin for mobile */
+    font-size: 14px;
+    margin-bottom: 20px;
   }
 
   .newsletter-form input {
-    font-size: 14px; /* Smaller font size for mobile */
+    font-size: 14px;
   }
 
   .newsletter-form button {
-    font-size: 14px; /* Smaller font size for mobile */
-    padding: 12px 20px; /* Adjusted padding for mobile */
+    font-size: 14px;
+    padding: 12px 20px;
   }
 }

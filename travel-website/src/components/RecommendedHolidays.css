@@ -22,11 +22,11 @@
   color: #007bff;
   text-decoration: none;
   font-size: 18px;
-  transition: color 0.3s ease; /* Smooth hover effect */
+  transition: color 0.3s ease;
 }
 
 .header .view-all:hover {
-  color: #0056b3; /* Darker blue on hover */
+  color: #0056b3;
   text-decoration: underline;
 }
 
@@ -39,19 +39,19 @@
 }
 
 .holiday-card {
-  width: calc(25% - 20px); /* 4 cards per row on desktop */
+  width: calc(25% - 20px);
   border: 1px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .holiday-card:hover {
-  transform: translateY(-5px); /* Lift card on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .holiday-card img {
@@ -89,76 +89,75 @@
   font-weight: bold;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 1024px) {
   .holiday-card {
-    width: calc(33.33% - 20px); /* 3 cards per row on tablets */
+    width: calc(33.33% - 20px);
   }
 }
 
 @media (max-width: 768px) {
   .recommended-holidays {
-    padding: 20px; /* Reduced padding for tablets */
+    padding: 20px;
   }
 
   .header {
-    padding: 0 20px; /* Reduced padding for tablets */
+    padding: 0 20px;
   }
 
   .header h2 {
-    font-size: 24px; /* Smaller font size for tablets */
+    font-size: 24px;
   }
 
   .header .view-all {
-    font-size: 16px; /* Smaller font size for tablets */
+    font-size: 16px;
   }
 
   .holidays-grid {
-    padding: 0 20px; /* Reduced padding for tablets */
+    padding: 0 20px;
   }
 
   .holiday-card {
-    width: calc(50% - 20px); /* 2 cards per row on smaller tablets */
+    width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 480px) {
   .recommended-holidays {
-    padding: 10px; /* Minimal padding for mobile */
+    padding: 10px;
   }
 
   .header {
-    flex-direction: column; /* Stack header content vertically */
-    align-items: flex-start; /* Align items to the left */
-    padding: 0 10px; /* Minimal padding for mobile */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
   }
 
   .header h2 {
-    font-size: 20px; /* Smaller font size for mobile */
+    font-size: 20px;
   }
 
   .header .view-all {
-    font-size: 14px; /* Smaller font size for mobile */
-    margin-top: 10px; /* Add space between title and link */
+    font-size: 14px;
+    margin-top: 10px;
   }
 
   .holidays-grid {
-    padding: 0 10px; /* Minimal padding for mobile */
+    padding: 0 10px;
   }
 
   .holiday-card {
-    width: 100%; /* 1 card per row on mobile */
+    width: 100%;
   }
 
   .holiday-info h2 {
-    font-size: 18px; /* Smaller font size for mobile */
+    font-size: 18px;
   }
 
   .holiday-info p {
-    font-size: 12px; /* Smaller font size for mobile */
+    font-size: 12px;
   }
 
   .holiday-info .price {
-    font-size: 24px; /* Smaller font size for mobile */
+    font-size: 24px;
   }
 }

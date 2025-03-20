@@ -1,18 +1,18 @@
 .recent-searches {
   padding: 20px;
   text-align: left;
-  margin-left: 80px; /* Adjust margin for larger screens */
+  margin-left: 80px;
 }
 
 .recent-searches h2 {
   color: #333;
-  font-size: 28px; /* Larger font size for the title */
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
 .searches-list {
   display: flex;
-  gap: 20px; /* Space between cards */
+  gap: 20px;
 }
 
 .search-item {
@@ -22,157 +22,156 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Space between elements inside the card */
-  width: calc(50% - 10px); /* Two cards side by side with gap */
+  gap: 20px;
+  width: calc(50% - 10px);
 }
 
 .route-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px; /* Space between elements */
+  gap: 10px;
 }
 
 .from-location, .to-location {
-  font-size: 24px; /* Larger font size for locations */
+  font-size: 24px;
   font-weight: bold;
-  color: #4A90E2; /* Blue color for locations */
+  color: #4A90E2;
 }
 
 .arrow-plane {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between icons */
+  gap: 10px;
 }
 
 .plane-icon {
-  color: #4A90E2; /* Blue color for the plane icon */
-  font-size: 28px; /* Larger icon size */
+  color: #4A90E2;
+  font-size: 28px;
 }
 
 .arrow-icon {
-  color: #4A90E2; /* Blue color for arrow icons */
-  font-size: 24px; /* Larger icon size */
+  color: #4A90E2;
+  font-size: 24px;
 }
 
 .search-date {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between icon and text */
-  justify-content: center; /* Center content */
+  gap: 10px;
+  justify-content: center;
 }
 
 .calendar-icon {
-  color: #F5A623; /* Orange color for the calendar icon */
-  font-size: 24px; /* Larger icon size */
+  color: #F5A623;
+  font-size: 24px;
 }
 
 .date {
-  font-size: 18px; /* Larger font size for the date */
+  font-size: 18px;
   color: #555;
 }
 
 .date strong {
-  font-weight: bold; /* Bold text for "Depart on" */
+  font-weight: bold;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 1024px) {
   .recent-searches {
-    margin-left: 40px; /* Reduce margin for tablets */
+    margin-left: 40px;
   }
 
   .recent-searches h2 {
-    font-size: 24px; /* Smaller font size for tablets */
+    font-size: 24px;
   }
 
   .from-location, .to-location {
-    font-size: 20px; /* Smaller font size for locations */
+    font-size: 20px;
   }
 
   .plane-icon {
-    font-size: 24px; /* Smaller icon size */
+    font-size: 24px;
   }
 
   .arrow-icon {
-    font-size: 20px; /* Smaller icon size */
+    font-size: 20px;
   }
 
   .calendar-icon {
-    font-size: 20px; /* Smaller icon size */
+    font-size: 20px;
   }
 
   .date {
-    font-size: 16px; /* Smaller font size for the date */
+    font-size: 16px;
   }
 }
 
 @media (max-width: 768px) {
   .recent-searches {
-    margin-left: 20px; /* Further reduce margin for smaller tablets */
+    margin-left: 20px;
   }
 
   .recent-searches h2 {
-    font-size: 22px; /* Smaller font size for smaller tablets */
+    font-size: 22px;
   }
 
   .from-location, .to-location {
-    font-size: 18px; /* Smaller font size for locations */
+    font-size: 18px;
   }
 
   .plane-icon {
-    font-size: 22px; /* Smaller icon size */
+    font-size: 22px;
   }
 
   .arrow-icon {
-    font-size: 18px; /* Smaller icon size */
+    font-size: 18px;
   }
 
   .calendar-icon {
-    font-size: 18px; /* Smaller icon size */
+    font-size: 18px;
   }
 
   .date {
-    font-size: 14px; /* Smaller font size for the date */
+    font-size: 14px;
   }
 }
 
 @media (max-width: 480px) {
   .recent-searches {
-    margin-left: 10px; /* Minimal margin for mobile */
-    padding: 10px; /* Reduced padding for mobile */
+    margin-left: 10px;
+    padding: 10px;
   }
 
   .recent-searches h2 {
-    font-size: 20px; /* Smaller font size for mobile */
+    font-size: 20px;
   }
 
   .search-item {
-    width: 100%; /* Full width for mobile (stacked vertically) */
+    width: 100%;
   }
 
   .from-location, .to-location {
-    font-size: 16px; /* Smaller font size for locations */
+    font-size: 16px;
   }
 
   .plane-icon {
-    font-size: 20px; /* Smaller icon size */
+    font-size: 20px;
   }
 
   .arrow-icon {
-    font-size: 16px; /* Smaller icon size */
+    font-size: 16px;
   }
 
   .calendar-icon {
-    font-size: 16px; /* Smaller icon size */
+    font-size: 16px;
   }
 
   .date {
-    font-size: 12px; /* Smaller font size for the date */
+    font-size: 12px;
   }
 
   .search-item {
-    padding: 15px; /* Reduced padding for mobile */
-    gap: 15px; /* Reduced gap for mobile */
+    padding: 15px;
+    gap: 15px;
   }
 }

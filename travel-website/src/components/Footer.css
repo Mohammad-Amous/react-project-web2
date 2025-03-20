@@ -7,7 +7,7 @@
 
 .footer-content {
   display: flex;
-  flex-direction: column; /* Stack content vertically on small screens */
+  flex-direction: column; 
   justify-content: space-between;
   align-items: flex-start;
   max-width: 1750px;
@@ -16,9 +16,9 @@
 }
 
 .footer-top {
-  max-width: 100%; /* Full width on small screens */
+  max-width: 100%; 
   text-align: left;
-  margin-bottom: 30px; /* Space between sections */
+  margin-bottom: 30px; 
 }
 
 .footer-top h1 {
@@ -41,17 +41,17 @@
 .icon {
   font-size: 24px;
   color: white;
-  transition: color 0.3s ease; /* Smooth hover effect */
+  transition: color 0.3s ease; 
 }
 
 .icon:hover {
-  color: #ffcc00; /* Yellow on hover */
+  color: #ffcc00; 
 }
 
 table {
-  width: 100%; /* Full width on small screens */
+  width: 100%; 
   border-collapse: collapse;
-  margin-bottom: 30px; /* Space below the table */
+  margin-bottom: 30px; 
 }
 
 th, td {
@@ -69,48 +69,48 @@ td {
   font-size: 14px;
   color: white;
   cursor: pointer;
-  transition: color 0.3s ease; /* Smooth hover effect */
+  transition: color 0.3s ease; 
 }
 
 td:hover {
-  color: #ffcc00; /* Yellow on hover */
+  color: #ffcc00; 
 }
 
-/* Responsive Adjustments */
+
 @media (min-width: 768px) {
   .footer-content {
-    flex-direction: row; /* Horizontal layout on larger screens */
+    flex-direction: row; 
   }
 
   .footer-top {
-    max-width: 400px; /* Restore original width */
-    margin-bottom: 0; /* Remove bottom margin */
+    max-width: 400px; 
+    margin-bottom: 0; 
   }
 
   table {
-    width: 60%; /* Restore original width */
-    margin-bottom: 0; /* Remove bottom margin */
+    width: 60%; 
+    margin-bottom: 0; 
   }
 }
 
 @media (max-width: 480px) {
   .footer-top h1 {
-    font-size: 20px; /* Smaller font size for mobile */
+    font-size: 20px; 
   }
 
   .footer-top p {
-    font-size: 12px; /* Smaller font size for mobile */
+    font-size: 12px; 
   }
 
   .icon {
-    font-size: 20px; /* Smaller icons for mobile */
+    font-size: 20px; 
   }
 
   th {
-    font-size: 16px; /* Smaller font size for table headers */
+    font-size: 16px; 
   }
 
   td {
-    font-size: 12px; /* Smaller font size for table data */
+    font-size: 12px; 
   }
 }
