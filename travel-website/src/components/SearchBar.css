@@ -1,0 +1,230 @@
+.search-bar-container {
+    background-image: url('../assets/Background.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #007bff;
+  }
+  
+  .search-content {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-content p {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+  
+  .search-flights-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 1200px; /* Adjusted max-width for better responsiveness */
+    width: 100%; /* Full width for smaller screens */
+    height: auto;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .search-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-header h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .search-options {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .search-options .option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-options input[type="radio"] {
+    margin: 0;
+  }
+  
+  .search-options label {
+    color: black;
+    font-size: 1.25rem;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+  }
+  
+  .search-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+  }
+  
+  .search-section label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.25rem;
+  }
+  
+  .search-section input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.25rem;
+  }
+  
+  .search-button {
+    padding: 15px 30px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    align-self: flex-end;
+  }
+  
+  .search-button:hover {
+    background-color: #ff6347;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 1024px) {
+    .search-content h1 {
+      font-size: 3rem; /* Smaller font size for tablets */
+    }
+  
+    .search-content p {
+      font-size: 1.5rem; /* Smaller font size for tablets */
+    }
+  
+    .search-flights-container {
+      padding: 20px; /* Reduced padding for tablets */
+    }
+  
+    .search-header h2 {
+      font-size: 1.25rem; /* Smaller font size for tablets */
+    }
+  
+    .search-options label {
+      font-size: 1rem; /* Smaller font size for tablets */
+    }
+  
+    .search-section label {
+      font-size: 1rem; /* Smaller font size for tablets */
+    }
+  
+    .search-section input {
+      font-size: 1rem; /* Smaller font size for tablets */
+      padding: 10px; /* Reduced padding for tablets */
+    }
+  
+    .search-button {
+      font-size: 1rem; /* Smaller font size for tablets */
+      padding: 10px 20px; /* Reduced padding for tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .search-content h1 {
+      font-size: 2.5rem; /* Smaller font size for smaller tablets */
+    }
+  
+    .search-content p {
+      font-size: 1.25rem; /* Smaller font size for smaller tablets */
+    }
+  
+    .search-flights-container {
+      padding: 15px; /* Further reduced padding for smaller tablets */
+    }
+  
+    .search-header {
+      flex-direction: column; /* Stack header content vertically */
+      align-items: flex-start; /* Align items to the left */
+      gap: 10px; /* Space between elements */
+    }
+  
+    .search-options {
+      gap: 20px; /* Reduced gap for smaller tablets */
+    }
+  
+    .search-bar {
+      flex-direction: column; /* Stack search sections vertically */
+      gap: 15px; /* Space between sections */
+    }
+  
+    .search-section {
+      width: 100%; /* Full width for smaller tablets */
+    }
+  
+    .search-button {
+      width: 100%; /* Full width for smaller tablets */
+      align-self: center; /* Center the button */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .search-content h1 {
+      font-size: 2rem; /* Smaller font size for mobile */
+    }
+  
+    .search-content p {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  
+    .search-flights-container {
+      padding: 10px; /* Minimal padding for mobile */
+    }
+  
+    .search-header h2 {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  
+    .search-options {
+      flex-direction: column; /* Stack options vertically */
+      gap: 10px; /* Space between options */
+    }
+  
+    .search-options label {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+  
+    .search-section label {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+  
+    .search-section input {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+      padding: 8px; /* Minimal padding for mobile */
+    }
+  
+    .search-button {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+      padding: 8px 15px; /* Minimal padding for mobile */
+    }
+  }

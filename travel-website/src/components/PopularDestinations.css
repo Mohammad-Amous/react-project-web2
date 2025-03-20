@@ -1,0 +1,109 @@
+.popular-destinations {
+  padding: 20px 40px;
+  max-width: 100%;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 40px;
+}
+
+.titles {
+  text-align: left;
+}
+
+.titles .plan-trip {
+  color: #007bff;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.titles h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.header .view-all {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.header .view-all:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+.destination-image {
+  padding: 0 40px;
+}
+
+.destination-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .popular-destinations {
+    padding: 20px; /* Reduced padding for tablets */
+  }
+
+  .header {
+    padding: 0 20px; /* Reduced padding for tablets */
+  }
+
+  .titles .plan-trip {
+    font-size: 20px; /* Smaller font size for tablets */
+  }
+
+  .titles h2 {
+    font-size: 24px; /* Smaller font size for tablets */
+  }
+
+  .header .view-all {
+    font-size: 16px; /* Smaller font size for tablets */
+  }
+
+  .destination-image {
+    padding: 0 20px; /* Reduced padding for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .popular-destinations {
+    padding: 10px; /* Minimal padding for mobile */
+  }
+
+  .header {
+    flex-direction: column; /* Stack header content vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 0 10px; /* Minimal padding for mobile */
+  }
+
+  .titles .plan-trip {
+    font-size: 18px; /* Smaller font size for mobile */
+  }
+
+  .titles h2 {
+    font-size: 20px; /* Smaller font size for mobile */
+  }
+
+  .header .view-all {
+    font-size: 14px; /* Smaller font size for mobile */
+    margin-top: 10px; /* Add space between title and link */
+  }
+
+  .destination-image {
+    padding: 0 10px; /* Minimal padding for mobile */
+  }
+}

@@ -1,0 +1,178 @@
+.recent-searches {
+  padding: 20px;
+  text-align: left;
+  margin-left: 80px; /* Adjust margin for larger screens */
+}
+
+.recent-searches h2 {
+  color: #333;
+  font-size: 28px; /* Larger font size for the title */
+  margin-bottom: 20px;
+}
+
+.searches-list {
+  display: flex;
+  gap: 20px; /* Space between cards */
+}
+
+.search-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between elements inside the card */
+  width: calc(50% - 10px); /* Two cards side by side with gap */
+}
+
+.route-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* Space between elements */
+}
+
+.from-location, .to-location {
+  font-size: 24px; /* Larger font size for locations */
+  font-weight: bold;
+  color: #4A90E2; /* Blue color for locations */
+}
+
+.arrow-plane {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icons */
+}
+
+.plane-icon {
+  color: #4A90E2; /* Blue color for the plane icon */
+  font-size: 28px; /* Larger icon size */
+}
+
+.arrow-icon {
+  color: #4A90E2; /* Blue color for arrow icons */
+  font-size: 24px; /* Larger icon size */
+}
+
+.search-date {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+  justify-content: center; /* Center content */
+}
+
+.calendar-icon {
+  color: #F5A623; /* Orange color for the calendar icon */
+  font-size: 24px; /* Larger icon size */
+}
+
+.date {
+  font-size: 18px; /* Larger font size for the date */
+  color: #555;
+}
+
+.date strong {
+  font-weight: bold; /* Bold text for "Depart on" */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .recent-searches {
+    margin-left: 40px; /* Reduce margin for tablets */
+  }
+
+  .recent-searches h2 {
+    font-size: 24px; /* Smaller font size for tablets */
+  }
+
+  .from-location, .to-location {
+    font-size: 20px; /* Smaller font size for locations */
+  }
+
+  .plane-icon {
+    font-size: 24px; /* Smaller icon size */
+  }
+
+  .arrow-icon {
+    font-size: 20px; /* Smaller icon size */
+  }
+
+  .calendar-icon {
+    font-size: 20px; /* Smaller icon size */
+  }
+
+  .date {
+    font-size: 16px; /* Smaller font size for the date */
+  }
+}
+
+@media (max-width: 768px) {
+  .recent-searches {
+    margin-left: 20px; /* Further reduce margin for smaller tablets */
+  }
+
+  .recent-searches h2 {
+    font-size: 22px; /* Smaller font size for smaller tablets */
+  }
+
+  .from-location, .to-location {
+    font-size: 18px; /* Smaller font size for locations */
+  }
+
+  .plane-icon {
+    font-size: 22px; /* Smaller icon size */
+  }
+
+  .arrow-icon {
+    font-size: 18px; /* Smaller icon size */
+  }
+
+  .calendar-icon {
+    font-size: 18px; /* Smaller icon size */
+  }
+
+  .date {
+    font-size: 14px; /* Smaller font size for the date */
+  }
+}
+
+@media (max-width: 480px) {
+  .recent-searches {
+    margin-left: 10px; /* Minimal margin for mobile */
+    padding: 10px; /* Reduced padding for mobile */
+  }
+
+  .recent-searches h2 {
+    font-size: 20px; /* Smaller font size for mobile */
+  }
+
+  .search-item {
+    width: 100%; /* Full width for mobile (stacked vertically) */
+  }
+
+  .from-location, .to-location {
+    font-size: 16px; /* Smaller font size for locations */
+  }
+
+  .plane-icon {
+    font-size: 20px; /* Smaller icon size */
+  }
+
+  .arrow-icon {
+    font-size: 16px; /* Smaller icon size */
+  }
+
+  .calendar-icon {
+    font-size: 16px; /* Smaller icon size */
+  }
+
+  .date {
+    font-size: 12px; /* Smaller font size for the date */
+  }
+
+  .search-item {
+    padding: 15px; /* Reduced padding for mobile */
+    gap: 15px; /* Reduced gap for mobile */
+  }
+}

@@ -1,0 +1,116 @@
+.footer {
+  background-color: #0C5CA9;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Stack content vertically on small screens */
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1750px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-top {
+  max-width: 100%; /* Full width on small screens */
+  text-align: left;
+  margin-bottom: 30px; /* Space between sections */
+}
+
+.footer-top h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-top p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.icon:hover {
+  color: #ffcc00; /* Yellow on hover */
+}
+
+table {
+  width: 100%; /* Full width on small screens */
+  border-collapse: collapse;
+  margin-bottom: 30px; /* Space below the table */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: none;
+}
+
+th {
+  font-size: 18px;
+  color: white;
+}
+
+td {
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+td:hover {
+  color: #ffcc00; /* Yellow on hover */
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row; /* Horizontal layout on larger screens */
+  }
+
+  .footer-top {
+    max-width: 400px; /* Restore original width */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+
+  table {
+    width: 60%; /* Restore original width */
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-top h1 {
+    font-size: 20px; /* Smaller font size for mobile */
+  }
+
+  .footer-top p {
+    font-size: 12px; /* Smaller font size for mobile */
+  }
+
+  .icon {
+    font-size: 20px; /* Smaller icons for mobile */
+  }
+
+  th {
+    font-size: 16px; /* Smaller font size for table headers */
+  }
+
+  td {
+    font-size: 12px; /* Smaller font size for table data */
+  }
+}
